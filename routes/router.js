@@ -45,7 +45,7 @@ router.post("/bookingRoom", (req, res) => {
             return res.status(400).send({ message: "room not vaccant" })
         }
         return room
-        // return res.status(401).send({message:"rooms not found"})
+     
 
     })
 });
