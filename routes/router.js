@@ -104,22 +104,7 @@ router.get("/bookedHistory/:customerId",async (req, res) => {
             if (room.bookedStatus && room.roomID == customerId) {
      return room
 
-
-                // return  res.status(401).send({message:"customers found",
-                
-                // "RoomName": room.roomName,
-                // "date": room.customerDetails.date,
-                // "startTime": room.customerDetails.startTime,
-                // "endTime": room.customerDetails.endTime,
-                // "bookingId": room.roomID + room.customerDetails,
-                // "bookingData": room.customerDetails.date,
-                // "bookingStatus": "booked"})
-
             }
-            // else{
-            //     res.status(200).send({message:"user not found"})
-            // }
-
         }
     )   
 
